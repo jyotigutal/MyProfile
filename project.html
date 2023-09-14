@@ -4,25 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+      .projectdetails{
+        font-family: 'Roboto', sans-serif;
+        color: crimson;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-style: 2px solid rgb(255, 228, 196);
+      }
+      .name{
+        padding-left: 5px;
+      }
+      .duration{
+        padding-left: 30px;
+      }
+      .roles{
+        margin: 25px 25px;
+        background-color: blanchedalmond;
+      }
+      .subhead{
+        font-family: 'Poppins', sans-serif;
+        color:crimson;
+        background-color:bisque;
+      }
+    </style>
   </head>
   <body>
-    <h3>Project Details</h3>
+    <h2 class="projectdetails">Project Details</h2>
     <hr />
     <p>
-      <strong> Name: &nbsp;&nbsp; <u> Student Management </u> </strong>
+      <strong> Name: <u class="name"> Student Management </u> </strong>
     </p>
 
     <p>
       <strong><u>Environment: </u></strong>
-      <mark
-        >&nbsp; Angular8, TypeScript, Javascript(ES6), HTML5, CSS, Bootstrap,
+      <mark class="name"> Angular8, TypeScript, Javascript(ES6), HTML5, CSS, Bootstrap,
         GitHub,Agile and JIRA, IDE - VS Code
       </mark>
     </p>
 
     <p>
-      <strong> Team Size:</strong> 06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <strong>Duration: </strong>
+      <strong> Team Size:</strong> 06 
+      <strong class="duration">Duration: </strong>
       <i> 2021-1<sup>st</sup> - July till <u> present </u> </i>
     </p>
 
@@ -35,23 +61,17 @@
     </p>
     <hr />
 
-    <h3>Roles and Responsibilities:</h3>
+    <h3 class="subhead">Roles and Responsibilities:</h3>
 
-    <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Designed and implemented the user
-      interface using HTML5 and CSS <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Work closely with backend developers
-      for code integration <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identifying and troubleshooting
-      issues with front end code <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worked on GIT as a version control
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Used JIRA for bug tracking<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Implemented project using Agile SCRUM
-      methodology, Involved in daily stand up meetings, sprint showcase ans
-      sprint retrospective <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Involved in fixing technical issues
-    </p>
+    <span class="roles">Designed and implemented the user interface using HTML5 and CSS</span><br>
+    <span class="roles">Work closely with backend developers for code integration</span><br>
+    <span class="roles">Identifying and troubleshooting issues with front end code</span><br>
+    <span class="roles">Worked on GIT as a version control</span> <br>   
+    <span class="roles">Used JIRA for bug tracking</span><br>
+    <span class="roles">Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase ans
+      sprint retrospective</span><br>
+     <span class="roles">Involved in fixing technical issues</span>
+    
     <hr />
   </body>
 </html>

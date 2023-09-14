@@ -3,28 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Details </title>
+    <title>Educational Details </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <style>
+      .edudetails{
+        font-family: 'Roboto', sans-serif;
+        color: crimson;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-style: 2px solid rgb(255, 228, 196);
+      }
         table,
         th,
         td {
           border: 1px solid black;
           border-collapse: collapse;
           text-align: center;
+          background-color: aqua;
+        }
+        .name{
+            padding-left: 20px;
         }
       </style>
 </head>
 <body>
-    <h2 style="color: blue;">Educational Details </h2>
+    <h2 class="edudetails">Educational Details </h2>
     
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;<Strong>Name:</Strong> Jenny Dsoza<br>
-     &nbsp;&nbsp;&nbsp;&nbsp;<strong>Mobile: </strong> 98 0909 0989 <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<strong>Email: </strong>abcdf@gmail.com
+    <p><Strong class="name">Name:</Strong> Jenny Dsoza<br>
+     <strong class="name">Mobile: </strong> 98 0909 0989 <br>
+     <strong class="name">Email: </strong>abcdf@gmail.com
     </p>
     <hr>
 
-    <h2 style="color: blue;">Academic Details</h2>
-    <table style="background-color: aqua;";">
+    <h2 class="edudetails">Academic Details</h2>
+    <table>
         <thead>
             <tr>
             <th> Sr No.</th>
