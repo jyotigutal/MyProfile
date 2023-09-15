@@ -21,11 +21,15 @@
       .duration{
         padding-left: 30px;
       }
-      .roles{
-        margin: 25px 25px;
+      .roles::before{
+        margin: 25px 10px;
+        /* background-color: blanchedalmond; */
+        content: "👉";
+      }
+      .roles::selection{
         background-color: blanchedalmond;
       }
-      .subhead{
+      .subhead::selection{
         font-family: 'Poppins', sans-serif;
         color:crimson;
         background-color:bisque;
@@ -71,7 +75,7 @@
     <span class="roles">Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase ans
       sprint retrospective</span><br>
      <span class="roles">Involved in fixing technical issues</span>
-    
+       
     <hr />
   </body>
 </html>
