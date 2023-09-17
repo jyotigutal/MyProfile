@@ -4,66 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <style>
-        #div1{
-            width: 500px;
-            height: 340px;
-            background-color: white;
-            display: inline-block;
-            border: 1px solid gray;
-            border-radius: 25px;
-            /*position: static;  This is default for every element */
-            position: relative;
-            left: 250px;
-            top: 160px; 
-            color: cadetblue;
-            /* z-index: 2; */
-        }
         .discountCalc{
             text-transform: uppercase;
-            text-align: center;
             font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 22px;
         }
-        input[type="number"]{
-            display: block;
+        div{
+            display: inline-block;
+            height: 350px;
+            width: 500px;
+            margin-left: 100px;
+            margin-top: 100px;
             color: cadetblue;
-            border-color: cadetblue;
-            width: 90%;
-            height: 30px;
-            
-        }
-        p{
-            margin-left: 8px;
-            font-weight: 20px;
-            font-family: 'Poppins', sans-serif;
         }
         input[type="button"]{
             background-color: #4caf50;
-            border-radius: 10px;
-            width: 90%;
-            margin-left: 8px;
+            width: 96%;
+            margin-left: 2px;
             height: 40px;
             font-size:larger;
             color: white;
+            border-radius: 8px;
         }
         input[type="button"]:hover{
             color: burlywood;
-            margin-left: 8px;
+            margin-left: 2px;
         }
+        input[type="number"]{
+            width: 96%;
+            height: 30px;
+            color: cadetblue;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
+        
     </style>
 </head>
 <body>
-    <div id="div1">
-        <h3 class="discountCalc">Discount Calculator</h3>
-            <p>Enter the Bill amount and discount in percentage </p>
-        <p>Bill Amount <br> <input type="number" value="55555"></p>
-        <p>Discount Percentage <br><input type="number" value="10"> </p>
-        <input type="button" value="Calculate">
-        <p>Total Discount Amount</p>
-    
-    </div>
+    <div class="w3-container">
+  <div class="w3-panel w3-card"><p class="discountCalc">Discount Calculator</p>
+    <p>Enter the Bill amount and discount in percentage </p>
+    <p>Bill Amount <br> <input type="number" value="55555"></p>
+    <p>Discount Percentage <br>
+        <input type="number" value="10" > </p>
+    <input type="button" value="Calculate">
+    <p>Total Discount Amount</p>
+</div>
+
+</div>
+
 </body>
 </html>
